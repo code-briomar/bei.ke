@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bei.ke - Supermarket Price Comparison</title>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        h1, h2, h3 {
+            margin-top: 1.5em;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f5f5f5;
+            font-weight: bold;
+        }
+        input {
+            padding: 8px;
+            font-size: 1em;
+            width: 100%;
+            max-width: 400px;
+        }
+        .lowest {
+            background-color: #90EE90;
+            font-weight: bold;
+        }
+        .product-card {
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin: 20px 0;
+            background-color: #fafafa;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bei.ke</h1>
+    <p>Compare supermarket prices across Kenya</p>
+
+    <input 
+        type="text" 
+        id="searchInput" 
+        placeholder="Search by product name or category..."
+    >
+
+    <div id="content"></div>
+
+    <script>
+        let allProducts = [];
+
+        function loadPrices() {
+            const xhr = new XMLHttpRequest();
+            xhr.open('GET', 'prices.json', true);
+            xhr.responseType = 'json';
+
+            xhr.onload = function() {
+                if (xhr.status === 200) {
+                    allProducts = xhr.response;
+                    renderProducts(allProducts);
+                    setupSearch();
+                } else {
+                    document.getElementById('content').innerHTML = '<p>Error loading prices</p>';
+                }
+            };
+
+            xhr.onerror = function() {
+                document.getElementById('content').innerHTML = '<p>Error loading prices</p>';
+            };
+
+            xhr.send();
+        }
+
+        function setupSearch() {
+            const searchInput = document.getElementById('searchInput');
+            searchInput.addEventListener('input', function() {
+                const query = this.value.toLowerCase();
+                const filtered = allProducts.filter(product => 
+                    product.product.toLowerCase().includes(query) || 
+                    product.category.toLowerCase().includes(query)
+                );
+                renderProducts(filtered);
+            });
+        }
+
+        function getLowestPrice(prices) {
+            let lowest = { store: null, price: Infinity };
+            for (const [store, price] of Object.entries(prices)) {
+                if (price < lowest.price) {
+                    lowest = { store, price };
+                }
+            }
+            return lowest;
+        }
+
+        function renderProducts(products) {
+            const content = document.getElementById('content');
+            
+            if (products.length === 0) {
+                content.innerHTML = '<p>No products found</p>';
+                return;
+            }
+
+            let html = '';
+            products.forEach(product => {
+                const lowest = getLowestPrice(product.prices);
+                const stores = Object.keys(product.prices).sort();
+
+                html += `
+                    <div class="product-card">
+                        <h3>${product.product}</h3>
+                        <p><strong>Category:</strong> ${product.category}</p>
+                        ${product.estimated ? '<p><em>Estimated price</em></p>' : ''}
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Store</th>
+                                    <th>Price (KES)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                ${stores.map(store => {
+                                    const price = product.prices[store];
+                                    const isLowest = store === lowest.store;
+                                    return `
+                                        <tr>
+                                            <td>${store}</td>
+                                            <td class="${isLowest ? 'lowest' : ''}">${price}</td>
+                                        </tr>
+                                    `;
+                                }).join('')}
+                            </tbody>
+                        </table>
+                    </div>
+                `;
+            });
+
+            content.innerHTML = html;
+        }
+
+        document.addEventListener('DOMContentLoaded', loadPrices);
+    </script>
+</body>
+</html>
