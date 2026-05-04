@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>KE Price Tracker</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: system-ui, sans-serif; background: #f4f4f4; color: #222; min-height: 100vh; }
+  .app { max-width: 700px; margin: 0 auto; padding: 16px; }
+  h1 { font-size: 20px; font-weight: 800; }
+  .subtitle { font-size: 12px; color: #888; margin-top: 3px; margin-bottom: 18px; }
+
+  /* Search */
+  .search-row { display: flex; gap: 8px; margin-bottom: 12px; position: relative; }
+  .search-wrap { position: relative; flex: 1; }
+  input[type=text], input[type=number] {
+    width: 100%; padding: 9px 12px; border: 1px solid #ccc; border-radius: 6px;
+    font-size: 14px; outline: none; font-family: inherit;
+  }
+  input[type=text]:focus, input[type=number]:focus { border-color: #888; }
+  .autocomplete-list {
+    position: absolute; top: calc(100% + 2px); left: 0; right: 0;
+    background: #fff; border: 1px solid #ddd; border-radius: 6px;
+    box-shadow: 0 4px 14px rgba(0,0,0,.12); z-index: 50;
+    max-height: 260px; overflow-y: auto; display: none;
+  }
+  .autocomplete-list.open { display: block; }
+  .ac-item { padding: 8px 12px; font-size: 13px; cursor: pointer; border-bottom: 1px solid #f5f5f5; }
+  .ac-item:hover, .ac-item.highlighted { background: #f0f7ff; }
+  .ac-item:last-child { border-bottom: none; }
+
+  /* Buttons */
+  button { cursor: pointer; border: none; border-radius: 6px; font-weight: 600; font-family: inherit; }
+  .btn-dark { background: #1a1a1a; color: #fff; padding: 9px 16px; font-size: 13px; white-space: nowrap; }
+  .btn-dark:disabled { background: #999; cursor: not-allowed; }
+  .btn-sm { padding: 5px 9px; font-size: 12px; }
+
+  /* Error */
+  .error-bar { background: #ffeaea; color: #c0392b; padding: 8px 12px; border-radius: 6px; margin-bottom: 10px; font-size: 13px; display: flex; justify-content: space-between; align-items: center; }
+
+  /* Filter / sort row */
+  .toolbar { display: flex; gap: 6px; flex-wrap: wrap; align-items: center; margin-bottom: 10px; }
+  .toolbar-label { font-size: 11px; color: #999; }
+  .chip { padding: 4px 10px; font-size: 11px; border-radius: 5px; font-weight: 600; cursor: pointer; border: none; }
+
+  /* Stats row */
+  .stats-row { display: flex; gap: 14px; flex-wrap: wrap; margin-bottom: 12px; font-size: 11px; color: #666; }
+
+  /* Card */
+  .card { background: #fff; border: 1px solid #e0e0e0; border-radius: 8px; padding: 14px; margin-bottom: 10px; }
+  .card-header { display: flex; justify-content: space-between; align-items: flex-start; }
+  .card-name { font-weight: 700; font-size: 14px; }
+  .card-best { font-size: 12px; color: #2a9d8f; margin-top: 2px; }
+  .card-save { color: #e76f51; margin-left: 6px; }
+  .card-actions { display: flex; gap: 5px; margin-left: 8px; flex-shrink: 0; }
+  .tags { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 8px; }
+  .tag {
+    display: inline-flex; align-items: center; gap: 3px;
+    border-radius: 4px; padding: 2px 8px; font-size: 12px; font-weight: 600;
+    border: 1px solid transparent;
+  }
+  .card-expanded { margin-top: 10px; }
+  .bar-row { display: flex; align-items: center; gap: 8px; margin-bottom: 3px; }
+  .bar-label { width: 78px; font-size: 11px; color: #666; text-align: right; flex-shrink: 0; }
+  .bar-label.dim { color: #ccc; }
+  .bar-track { flex: 1; height: 16px; background: #f0f0f0; border-radius: 3px; overflow: hidden; }
+  .bar-fill { height: 100%; border-radius: 3px; transition: width 0.4s; }
+  .bar-val { font-size: 11px; font-weight: 700; color: #444; white-space: nowrap; }
+  .bar-val.cheapest { color: #2a9d8f; }
+  .bar-no-data { font-size: 11px; color: #ccc; }
+  .jaza-note { font-size: 11px; color: #b85c00; background: #fff8f0; border: 1px solid #fde8cc; border-radius: 4px; padding: 5px 8px; margin-top: 8px; }
+  .updated { font-size: 10px; color: #bbb; margin-top: 6px; }
+
+  /* Modal */
+  .modal-overlay { position: fixed; inset: 0; background: rgba(0,0,0,.32); display: flex; align-items: center; justify-content: center; z-index: 100; }
+  .modal { background: #fff; border-radius: 10px; padding: 24px; min-width: 300px; max-width: 380px; width: 90%; }
+  .modal-title { font-weight: 700; margin-bottom: 4px; }
+  .modal-sub { font-size: 12px; color: #888; margin-bottom: 14px; }
+  .modal-row { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; }
+  .modal-label { width: 90px; font-size: 13px; font-weight: 700; flex-shrink: 0; }
+  .modal-note { font-size: 11px; color: #aaa; margin-bottom: 14px; }
+  .modal-actions { display: flex; gap: 8px; }
+
+  /* Empty */
+  .empty { text-align: center; color: #bbb; margin-top: 48px; font-size: 14px; }
+
+  /* Loading spinner */
+  .spinner { display: inline-block; width: 14px; height: 14px; border: 2px solid #fff; border-top-color: transparent; border-radius: 50%; animation: spin .6s linear infinite; vertical-align: middle; margin-right: 4px; }
+  @keyframes spin { to { transform: rotate(360deg); } }
+</style>
+</head>
+<body>
+<div class="app">
+  <h1>🛒 KE Price Tracker</h1>
+  <p class="subtitle">Naivas · Quickmart · Carrefour (AI estimated) &nbsp;·&nbsp; Jaza (manual only — no online data)</p>
+
+  <!-- Search -->
+  <div class="search-row">
+    <div class="search-wrap">
+      <input type="text" id="searchInput" placeholder="Search product (e.g. Brookside Milk 500ml)" autocomplete="off"/>
+      <div class="autocomplete-list" id="acList"></div>
+    </div>
+    <button class="btn-dark" id="addBtn" onclick="handleAdd()">+ Track</button>
+  </div>
+
+  <div class="error-bar" id="errorBar" style="display:none">
+    <span id="errorMsg"></span>
+    <button onclick="hideError()" style="background:none;color:#c0392b;font-weight:700;font-size:14px;padding:0 4px;">✕</button>
+  </div>
+
+  <!-- Toolbar -->
+  <div class="toolbar" id="toolbar" style="display:none">
+    <span class="toolbar-label">Filter:</span>
+    <button class="chip" id="chip-All" onclick="setFilter('All')">All</button>
+    <button class="chip" id="chip-Naivas" onclick="setFilter('Naivas')">Naivas</button>
+    <button class="chip" id="chip-Quickmart" onclick="setFilter('Quickmart')">Quickmart</button>
+    <button class="chip" id="chip-Jaza" onclick="setFilter('Jaza')">Jaza</button>
+    <button class="chip" id="chip-Carrefour" onclick="setFilter('Carrefour')">Carrefour</button>
+    <span class="toolbar-label" style="margin-left:6px">Sort:</span>
+    <button class="chip" id="sort-name" onclick="setSort('name')">A–Z</button>
+    <button class="chip" id="sort-cheapest" onclick="setSort('cheapest')">Cheapest</button>
+    <button class="chip" id="sort-savings" onclick="setSort('savings')">Most Savings</button>
+  </div>
+
+  <div class="stats-row" id="statsRow" style="display:none"></div>
+  <div id="productList"></div>
+  <div class="empty" id="emptyMsg">No products tracked yet. Search above to add one.</div>
+
+  <!-- Edit Modal -->
+  <div class="modal-overlay" id="modalOverlay" style="display:none" onclick="closeModal(event)">
+    <div class="modal" onclick="event.stopPropagation()">
+      <div class="modal-title">Edit prices</div>
+      <div class="modal-sub" id="modalProductName"></div>
+      <div id="modalFields"></div>
+      <div class="modal-note">* Jaza prices must be entered manually — no online data available.</div>
+      <div class="modal-actions">
+        <button class="btn-dark" style="padding:8px 16px;font-size:13px" onclick="saveModal()">Save</button>
+        <button onclick="hideModal()" style="background:#eee;color:#555;padding:8px 16px;font-size:13px">Cancel</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+const STORES = ["Naivas", "Quickmart", "Jaza", "Carrefour"];
+const COLORS = { Naivas:"#e63946", Quickmart:"#2a9d8f", Jaza:"#e76f51", Carrefour:"#457b9d" };
+const STORAGE_KEY = "ke_price_tracker_v3";
+
+const SUGGESTIONS = [
+  "Brookside Milk 500ml","Brookside Milk 1L","Daima Milk 500ml","Daima Milk 1L",
+  "Fresha Milk 500ml","KCC Butter 250g","Brookside Yoghurt 150g",
+  "Weetabix 430g","Kellogg's Cornflakes 500g",
+  "Jogoo Maize Flour 2kg","Jogoo Maize Flour 5kg","Dola Maize Flour 2kg","Pembe Maize Flour 2kg",
+  "Kabras Sugar 1kg","Kabras Sugar 2kg","Mumias Sugar 1kg","Mumias Sugar 2kg",
+  "Bidco Cooking Oil 1L","Bidco Cooking Oil 2L","Elianto Cooking Oil 1L",
+  "Golden Fry Cooking Oil 1L","Kimbo Cooking Fat 500g","Cowboy Cooking Fat 500g",
+  "Royco Mchuzi Mix 75g","Royco Mchuzi Mix 200g","Knorr Chicken Stock 8 cubes",
+  "Heinz Ketchup 500ml","Delmonte Tomato Paste 70g",
+  "Toss Dish Soap 750ml","Vim Cream Cleanser 500ml",
+  "Ariel Washing Powder 1kg","Omo Washing Powder 1kg","Surf Washing Powder 1kg",
+  "Softex Tissue 10 pack","Always Pads Regular 8 pack",
+  "Colgate Toothpaste 75ml","Oral-B Toothpaste 100ml",
+  "Dettol Soap 175g","Lifebuoy Soap 175g",
+  "Vaseline Body Lotion 400ml","Nivea Body Lotion 400ml",
+  "Panadol 12 tablets",
+  "Indomie Chicken 70g","Kenchic Chicken Wings 1kg","Farmers Choice Sausages 500g",
+  "Tuna Chunks 185g","Baked Beans 410g Heinz",
+  "Unga Wheat Flour 2kg","Blue Band Margarine 500g",
+  "Nescafe Classic 50g","Kericho Gold Tea 50 bags",
+  "Coca-Cola 500ml","Pepsi 500ml","Fanta Orange 500ml","Sprite 500ml",
+  "Stoney Tangawizi 500ml","Minute Maid Orange 1L",
+  "Nutrex Juice 1L","Pick n Peel Juice 1L",
+  "Bananas 1kg","Tomatoes 1kg","Onions 1kg","Potatoes 1kg",
+  "Dettol Sanitizer 100ml","Jik Bleach 750ml","Lavender Dishwashing Liquid 500ml",
+];
+
+// --- State ---
+let products = {};
+let filterStore = "All";
+let sortBy = "name";
+let expandedKeys = new Set();
+let modalKey = null;
+let acHighlighted = -1;
+let acMatches = [];
+
+function loadProducts() {
+  try { products = JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}"); } catch { products = {}; }
+}
+function saveProducts() { localStorage.setItem(STORAGE_KEY, JSON.stringify(products)); }
+
+// --- AI fetch (Naivas, Quickmart, Carrefour only) ---
+async function fetchPricesFromAI(name, existingJaza = null) {
+  const prompt = `You are a Kenyan supermarket price database. Return ONLY a JSON object with approximate retail prices in KES for "${name}" at these stores: Naivas, Quickmart, Carrefour.\n\nRules:\n- Use realistic Kenyan market prices as of 2024/2025\n- If a store likely doesn't carry the item, use null\n- Return ONLY valid JSON, no markdown, no explanation\n- Format: {"Naivas": 120, "Quickmart": 115, "Carrefour": 130}`;
+  const res = await fetch("https://api.anthropic.com/v1/messages", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      model: "claude-sonnet-4-20250514",
+      max_tokens: 300,
+      messages: [{ role: "user", content: prompt }]
+    })
+  });
+  const data = await res.json();
+  const raw = (data.content?.find(b => b.type === "text")?.text || "{}").replace(/```json|```/g, "").trim();
+  const ai = JSON.parse(raw);
+  return { ...ai, Jaza: existingJaza };
+}
+
+// --- Autocomplete ---
+const searchInput = document.getElementById("searchInput");
+const acList = document.getElementById("acList");
+
+searchInput.addEventListener("input", () => { renderAC(); });
+searchInput.addEventListener("focus", () => { renderAC(); });
+searchInput.addEventListener("keydown", (e) => {
+  if (e.key === "Enter") {
+    if (acList.classList.contains("open") && acHighlighted >= 0 && acMatches[acHighlighted]) {
+      pickAC(acMatches[acHighlighted]);
+    } else {
+      handleAdd();
+    }
+    return;
+  }
+  if (!acList.classList.contains("open")) return;
+  if (e.key === "ArrowDown") { e.preventDefault(); setACHighlight(acHighlighted + 1); }
+  else if (e.key === "ArrowUp") { e.preventDefault(); setACHighlight(acHighlighted - 1); }
+  else if (e.key === "Escape") { closeAC(); }
+});
+document.addEventListener("click", (e) => {
+  if (!e.target.closest(".search-wrap")) closeAC();
+});
+
+function renderAC() {
+  const val = searchInput.value.trim().toLowerCase();
+  const tracked = new Set(Object.keys(products));
+  acMatches = val.length < 1 ? [] :
+    SUGGESTIONS.filter(s => s.toLowerCase().includes(val) && !tracked.has(s.trim().toLowerCase())).slice(0, 8);
+  acHighlighted = -1;
+  if (!acMatches.length) { closeAC(); return; }
+  acList.innerHTML = acMatches.map((s, i) =>
+    `<div class="ac-item" data-i="${i}" onmousedown="pickAC('${s.replace(/'/g,"\\'")}', event)">${s}</div>`
+  ).join("");
+  acList.classList.add("open");
+}
+function setACHighlight(i) {
+  const items = acList.querySelectorAll(".ac-item");
+  items.forEach(el => el.classList.remove("highlighted"));
+  acHighlighted = Math.max(-1, Math.min(i, acMatches.length - 1));
+  if (acHighlighted >= 0) items[acHighlighted]?.classList.add("highlighted");
+}
+function pickAC(s, e) {
+  if (e) e.preventDefault();
+  searchInput.value = s;
+  closeAC();
+  handleAdd();
+}
+function closeAC() { acList.classList.remove("open"); acList.innerHTML = ""; acHighlighted = -1; }
+
+// --- Add product ---
+async function handleAdd() {
+  const name = searchInput.value.trim();
+  if (!name) return;
+  const key = name.toLowerCase();
+  if (products[key]) { showError(`"${name}" is already tracked.`); return; }
+  setAddLoading(true);
+  hideError();
+  try {
+    const prices = await fetchPricesFromAI(name, null);
+    products[key] = { name, prices, lastUpdated: Date.now() };
+    saveProducts();
+    searchInput.value = "";
+    closeAC();
+    render();
+  } catch (err) {
+    showError("Failed to fetch prices. Check your connection.");
+  } finally {
+    setAddLoading(false);
+  }
+}
+function setAddLoading(on) {
+  const btn = document.getElementById("addBtn");
+  btn.disabled = on;
+  btn.innerHTML = on ? `<span class="spinner"></span>Fetching…` : "+ Track";
+}
+
+// --- Refresh ---
+async function refreshProduct(key) {
+  const card = document.getElementById("card-" + CSS.escape(key));
+  const btn = card?.querySelector(".btn-refresh");
+  if (btn) { btn.disabled = true; btn.textContent = "…"; }
+  try {
+    const existing = products[key];
+    const prices = await fetchPricesFromAI(existing.name, existing.prices.Jaza ?? null);
+    products[key] = { ...products[key], prices, lastUpdated: Date.now() };
+    saveProducts();
+    render();
+  } catch {
+    showError("Refresh failed.");
+  } finally {
+    if (btn) { btn.disabled = false; btn.textContent = "↻"; }
+  }
+}
+
+// --- Delete ---
+function deleteProduct(key) {
+  delete products[key];
+  expandedKeys.delete(key);
+  saveProducts();
+  render();
+}
+
+// --- Expand toggle ---
+function toggleExpand(key) {
+  expandedKeys.has(key) ? expandedKeys.delete(key) : expandedKeys.add(key);
+  render();
+}
+
+// --- Filter / sort ---
+function setFilter(s) { filterStore = s; render(); }
+function setSort(s) { sortBy = s; render(); }
+
+// --- Modal ---
+function openModal(key) {
+  modalKey = key;
+  const p = products[key];
+  document.getElementById("modalProductName").textContent = p.name;
+  const fields = document.getElementById("modalFields");
+  fields.innerHTML = STORES.map(store => `
+    <div class="modal-row">
+      <label class="modal-label" style="color:${COLORS[store]}">${store}${store==="Jaza"?" *":""}</label>
+      <input type="number" id="mf-${store}" placeholder="KES" value="${p.prices[store] ?? ""}" style="flex:1;padding:7px 10px;border:1px solid #ccc;border-radius:6px;font-size:13px;outline:none"/>
+    </div>`).join("");
+  document.getElementById("modalOverlay").style.display = "flex";
+}
+function hideModal() { document.getElementById("modalOverlay").style.display = "none"; modalKey = null; }
+function closeModal(e) { if (e.target === document.getElementById("modalOverlay")) hideModal(); }
+function saveModal() {
+  if (!modalKey) return;
+  const prices = {};
+  STORES.forEach(s => { const v = parseFloat(document.getElementById("mf-"+s)?.value); prices[s] = isNaN(v) ? null : v; });
+  products[modalKey] = { ...products[modalKey], prices, lastUpdated: Date.now() };
+  saveProducts();
+  hideModal();
+  render();
+}
+
+// --- Error ---
+function showError(msg) {
+  document.getElementById("errorMsg").textContent = msg;
+  document.getElementById("errorBar").style.display = "flex";
+}
+function hideError() { document.getElementById("errorBar").style.display = "none"; }
+
+// --- Render ---
+function render() {
+  const keys = Object.keys(products);
+  const hasProducts = keys.length > 0;
+
+  document.getElementById("toolbar").style.display = hasProducts ? "flex" : "none";
+  document.getElementById("statsRow").style.display = hasProducts ? "flex" : "none";
+
+  // Filter chips
+  ["All", ...STORES].forEach(s => {
+    const el = document.getElementById("chip-" + s);
+    if (!el) return;
+    const active = filterStore === s;
+    el.style.background = active ? (COLORS[s] || "#1a1a1a") : "#e8e8e8";
+    el.style.color = active ? "#fff" : "#666";
+  });
+  ["name","cheapest","savings"].forEach(s => {
+    const el = document.getElementById("sort-"+s);
+    if (!el) return;
+    el.style.background = sortBy === s ? "#1a1a1a" : "#e8e8e8";
+    el.style.color = sortBy === s ? "#fff" : "#666";
+  });
+
+  // Stats
+  const statsRow = document.getElementById("statsRow");
+  statsRow.innerHTML = STORES.map(store => {
+    const count = Object.values(products).filter(p => p.prices[store] != null).length;
+    return `<span><span style="color:${COLORS[store]};font-weight:700">${store}</span>: ${count}${store==="Jaza"?' <span style="color:#ccc">(manual)</span>':""}</span>`;
+  }).join("");
+
+  // Filter + sort
+  let entries = Object.entries(products).filter(([,v]) => filterStore === "All" || v.prices[filterStore] != null);
+  entries.sort(([,a],[,b]) => {
+    if (sortBy === "name") return a.name.localeCompare(b.name);
+    if (sortBy === "cheapest") {
+      const m = p => { const v = Object.values(p.prices).filter(Boolean); return v.length ? Math.min(...v) : Infinity; };
+      return m(a) - m(b);
+    }
+    if (sortBy === "savings") {
+      const r = p => { const v = Object.values(p.prices).filter(Boolean); return v.length ? Math.max(...v)-Math.min(...v) : 0; };
+      return r(b) - r(a);
+    }
+    return 0;
+  });
+
+  const list = document.getElementById("productList");
+  const empty = document.getElementById("emptyMsg");
+
+  if (entries.length === 0) {
+    list.innerHTML = "";
+    empty.style.display = "block";
+    empty.textContent = keys.length === 0 ? "No products tracked yet. Search above to add one." : "No results for this filter.";
+    return;
+  }
+  empty.style.display = "none";
+
+  list.innerHTML = entries.map(([key, product]) => {
+    const { name, prices, lastUpdated } = product;
+    const valid = Object.values(prices).filter(v => v != null);
+    const min = valid.length ? Math.min(...valid) : null;
+    const max = valid.length ? Math.max(...valid) : null;
+    const savings = (min != null && max != null) ? max - min : 0;
+    const cheapestStore = min != null ? STORES.find(s => prices[s] === min) : null;
+    const expanded = expandedKeys.has(key);
+
+    const tags = STORES.map(s => {
+      const p = prices[s];
+      const color = COLORS[s];
+      const bg = p != null ? color + "18" : "#f5f5f5";
+      const fg = p != null ? color : "#bbb";
+      const border = p != null ? color + "55" : "#e8e8e8";
+      return `<span class="tag" style="background:${bg};color:${fg};border-color:${border}">
+        ${s}: ${p != null ? "KES "+p : "—"}${s==="Jaza"?'<span style="font-size:9px;opacity:.6"> ✏</span>':''}
+      </span>`;
+    }).join("");
+
+    let bars = "";
+    if (expanded) {
+      bars = STORES.map(s => {
+        const p = prices[s];
+        if (p == null) return `
+          <div class="bar-row">
+            <span class="bar-label dim">${s}</span>
+            <span class="bar-no-data">${s==="Jaza"?"enter manually ↗":"not available"}</span>
+          </div>`;
+        const pct = max > 0 ? (p / max * 100).toFixed(1) : 0;
+        const cheapest = p === min;
+        return `
+          <div class="bar-row">
+            <span class="bar-label">${s}</span>
+            <div class="bar-track"><div class="bar-fill" style="width:${pct}%;background:${COLORS[s]}"></div></div>
+            <span class="bar-val${cheapest?" cheapest":""}">KES ${p}${cheapest?" ✓":""}</span>
+          </div>`;
+      }).join("");
+    }
+
+    const jazaNote = expanded && prices.Jaza == null
+      ? `<div class="jaza-note">Jaza has no online price data — click ✏️ to enter manually.</div>` : "";
+    const updatedStr = expanded && lastUpdated
+      ? `<div class="updated">AI prices updated: ${new Date(lastUpdated).toLocaleString("en-KE")}</div>` : "";
+
+    return `
+      <div class="card" id="card-${key.replace(/"/g,'&quot;')}">
+        <div class="card-header">
+          <div style="flex:1;min-width:0">
+            <div class="card-name">${escHtml(name)}</div>
+            ${cheapestStore ? `<div class="card-best">Best: KES ${min} @ ${cheapestStore}${savings>0?`<span class="card-save">save KES ${savings}</span>`:""}</div>` : ""}
+          </div>
+          <div class="card-actions">
+            <button class="btn-sm" style="background:#f0f0f0;color:#555" onclick="toggleExpand('${escKey(key)}')">${expanded?"▲":"▼"}</button>
+            <button class="btn-sm" style="background:#fff3e0;color:#c06010" onclick="openModal('${escKey(key)}')" title="Edit prices">✏️</button>
+            <button class="btn-sm btn-refresh" style="background:#e8f4fd;color:#457b9d" onclick="refreshProduct('${escKey(key)}')" title="Refresh AI prices">↻</button>
+            <button class="btn-sm" style="background:#ffeaea;color:#e63946" onclick="deleteProduct('${escKey(key)}')">✕</button>
+          </div>
+        </div>
+        <div class="tags">${tags}</div>
+        ${expanded ? `<div class="card-expanded">${bars}${jazaNote}${updatedStr}</div>` : ""}
+      </div>`;
+  }).join("");
+}
+
+function escHtml(s) { return s.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;"); }
+function escKey(k) { return k.replace(/\\/g,"\\\\").replace(/'/g,"\\'"); }
+
+// --- Init ---
+loadProducts();
+render();
+</script>
+</body>
+</html>
