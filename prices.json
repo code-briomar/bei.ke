@@ -1,0 +1,4993 @@
+[
+  {
+    "category": "Dairy",
+    "product": "Brookside Milk 500ml",
+    "prices": {
+      "Naivas": {
+        "price": 65,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 65,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 70,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 70,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 60,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Dairy",
+    "product": "Brookside Milk 1L",
+    "prices": {
+      "Naivas": {
+        "price": 120,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 120,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 125,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 125,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 115,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Dairy",
+    "product": "Brookside Milk 2L",
+    "prices": {
+      "Naivas": {
+        "price": 230,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 230,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 240,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 240,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 225,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Dairy",
+    "product": "Daima Milk 500ml",
+    "prices": {
+      "Naivas": {
+        "price": 65,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 65,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 70,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 70,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 60,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Dairy",
+    "product": "Daima Milk 1L",
+    "prices": {
+      "Naivas": {
+        "price": 120,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 120,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 125,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 125,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 115,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Dairy",
+    "product": "Fresha Milk 500ml",
+    "prices": {
+      "Naivas": {
+        "price": 60,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 60,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 65,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 65,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 60,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Dairy",
+    "product": "Molo Milk 500ml",
+    "prices": {
+      "Naivas": {
+        "price": 60,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 60,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 65,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 65,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 55,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Dairy",
+    "product": "KCC Butter 250g",
+    "prices": {
+      "Naivas": {
+        "price": 270,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 265,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 280,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 285,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 260,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Dairy",
+    "product": "Blue Band Margarine 250g",
+    "prices": {
+      "Naivas": {
+        "price": 130,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 130,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 135,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 135,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 125,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Dairy",
+    "product": "Blue Band Margarine 500g",
+    "prices": {
+      "Naivas": {
+        "price": 240,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 240,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 250,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 250,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 235,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Dairy",
+    "product": "Brookside Yoghurt 150g",
+    "prices": {
+      "Naivas": {
+        "price": 55,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 55,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 60,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 60,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 50,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Dairy",
+    "product": "Brookside Yoghurt 500g",
+    "prices": {
+      "Naivas": {
+        "price": 150,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 150,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 160,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 160,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 145,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Dairy",
+    "product": "Daima Yoghurt 500g",
+    "prices": {
+      "Naivas": {
+        "price": 150,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 150,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 160,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 160,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 145,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Dairy",
+    "product": "Brookside Cheese Slices 200g",
+    "prices": {
+      "Naivas": {
+        "price": 320,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 315,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 330,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 335,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 310,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Dairy",
+    "product": "Eggs Tray 30 pack",
+    "prices": {
+      "Naivas": {
+        "price": 480,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 475,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 490,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 495,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 470,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Dairy",
+    "product": "Eggs 6 pack",
+    "prices": {
+      "Naivas": {
+        "price": 105,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 100,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 110,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 110,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 100,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Grains & Flour",
+    "product": "Jogoo Maize Flour 2kg",
+    "prices": {
+      "Naivas": {
+        "price": 185,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 185,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 190,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 190,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 180,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Grains & Flour",
+    "product": "Jogoo Maize Flour 5kg",
+    "prices": {
+      "Naivas": {
+        "price": 440,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 440,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 450,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 450,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 435,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Grains & Flour",
+    "product": "Dola Maize Flour 2kg",
+    "prices": {
+      "Naivas": {
+        "price": 180,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 180,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 185,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 185,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 175,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Grains & Flour",
+    "product": "Pembe Maize Flour 2kg",
+    "prices": {
+      "Naivas": {
+        "price": 185,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 185,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 190,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 190,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 180,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Grains & Flour",
+    "product": "Pembe Maize Flour 5kg",
+    "prices": {
+      "Naivas": {
+        "price": 440,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 440,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 450,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 450,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 435,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Grains & Flour",
+    "product": "Soko Maize Flour 2kg",
+    "prices": {
+      "Naivas": {
+        "price": 180,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 180,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 185,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 185,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 175,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Grains & Flour",
+    "product": "Unga Wheat Flour 2kg",
+    "prices": {
+      "Naivas": {
+        "price": 195,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 195,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 200,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 200,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 190,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Grains & Flour",
+    "product": "Unga Wheat Flour 5kg",
+    "prices": {
+      "Naivas": {
+        "price": 465,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 465,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 475,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 475,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 460,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Grains & Flour",
+    "product": "Pishori Rice 2kg",
+    "prices": {
+      "Naivas": {
+        "price": 320,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 315,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 330,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 330,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 310,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Grains & Flour",
+    "product": "Basmati Rice 1kg",
+    "prices": {
+      "Naivas": {
+        "price": 200,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 195,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 210,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 210,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 195,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Grains & Flour",
+    "product": "Basmati Rice 2kg",
+    "prices": {
+      "Naivas": {
+        "price": 390,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 385,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 400,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 400,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 380,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Grains & Flour",
+    "product": "Saawa Rice 1kg",
+    "prices": {
+      "Naivas": {
+        "price": 160,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 160,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 165,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 165,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 155,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Sugar",
+    "product": "Kabras Sugar 1kg",
+    "prices": {
+      "Naivas": {
+        "price": 165,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 165,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 170,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 170,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 160,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Sugar",
+    "product": "Kabras Sugar 2kg",
+    "prices": {
+      "Naivas": {
+        "price": 320,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 320,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 330,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 330,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 315,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Sugar",
+    "product": "Mumias Sugar 1kg",
+    "prices": {
+      "Naivas": {
+        "price": 165,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 165,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 170,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 170,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 160,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Sugar",
+    "product": "Mumias Sugar 2kg",
+    "prices": {
+      "Naivas": {
+        "price": 320,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 320,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 330,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 330,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 315,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Sugar",
+    "product": "West Kenya Sugar 1kg",
+    "prices": {
+      "Naivas": {
+        "price": 165,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 165,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 170,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 170,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 160,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Sugar",
+    "product": "West Kenya Sugar 2kg",
+    "prices": {
+      "Naivas": {
+        "price": 320,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 320,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 330,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 330,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 315,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Cooking Oil & Fats",
+    "product": "Bidco Cooking Oil 1L",
+    "prices": {
+      "Naivas": {
+        "price": 280,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 275,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 290,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 290,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 270,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Cooking Oil & Fats",
+    "product": "Bidco Cooking Oil 2L",
+    "prices": {
+      "Naivas": {
+        "price": 540,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 535,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 555,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 555,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 530,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Cooking Oil & Fats",
+    "product": "Bidco Cooking Oil 5L",
+    "prices": {
+      "Naivas": {
+        "price": 1300,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 1295,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 1320,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 1325,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 1285,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Cooking Oil & Fats",
+    "product": "Elianto Cooking Oil 1L",
+    "prices": {
+      "Naivas": {
+        "price": 275,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 270,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 285,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 285,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 265,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Cooking Oil & Fats",
+    "product": "Elianto Cooking Oil 2L",
+    "prices": {
+      "Naivas": {
+        "price": 535,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 530,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 550,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 550,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 525,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Cooking Oil & Fats",
+    "product": "Golden Fry Cooking Oil 1L",
+    "prices": {
+      "Naivas": {
+        "price": 270,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 265,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 280,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 280,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 260,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Cooking Oil & Fats",
+    "product": "Rina Cooking Oil 1L",
+    "prices": {
+      "Naivas": {
+        "price": 270,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 265,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 280,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 280,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 260,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Cooking Oil & Fats",
+    "product": "Kimbo Cooking Fat 500g",
+    "prices": {
+      "Naivas": {
+        "price": 185,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 185,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 195,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 195,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 180,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Cooking Oil & Fats",
+    "product": "Kimbo Cooking Fat 1kg",
+    "prices": {
+      "Naivas": {
+        "price": 355,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 350,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 365,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 365,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 345,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Cooking Oil & Fats",
+    "product": "Cowboy Cooking Fat 500g",
+    "prices": {
+      "Naivas": {
+        "price": 180,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 180,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 190,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 190,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 175,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Tea & Coffee",
+    "product": "Kericho Gold Tea 50 bags",
+    "prices": {
+      "Naivas": {
+        "price": 155,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 155,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 165,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 165,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 150,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Tea & Coffee",
+    "product": "Kericho Gold Tea 100 bags",
+    "prices": {
+      "Naivas": {
+        "price": 295,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 290,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 305,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 305,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 285,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Tea & Coffee",
+    "product": "Ketepa Tea 250g",
+    "prices": {
+      "Naivas": {
+        "price": 200,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 200,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 210,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 210,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 195,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Tea & Coffee",
+    "product": "Sasini Tea 250g",
+    "prices": {
+      "Naivas": {
+        "price": 195,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 195,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 205,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 205,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 190,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Tea & Coffee",
+    "product": "Nescafe Classic 50g",
+    "prices": {
+      "Naivas": {
+        "price": 375,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 370,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 385,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 390,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 365,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Tea & Coffee",
+    "product": "Nescafe Classic 100g",
+    "prices": {
+      "Naivas": {
+        "price": 700,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 695,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 715,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 720,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 690,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Tea & Coffee",
+    "product": "Africafe Instant Coffee 50g",
+    "prices": {
+      "Naivas": {
+        "price": 355,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 350,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 365,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 370,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 345,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Tea & Coffee",
+    "product": "Nestlé Milo 400g",
+    "prices": {
+      "Naivas": {
+        "price": 470,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 465,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 485,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 490,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 460,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Soft Drinks",
+    "product": "Coca-Cola 500ml",
+    "prices": {
+      "Naivas": {
+        "price": 80,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 80,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 85,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 85,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 75,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Soft Drinks",
+    "product": "Coca-Cola 2L",
+    "prices": {
+      "Naivas": {
+        "price": 215,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 210,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 220,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 220,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 205,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Soft Drinks",
+    "product": "Pepsi 500ml",
+    "prices": {
+      "Naivas": {
+        "price": 75,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 75,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 80,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 80,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 70,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Soft Drinks",
+    "product": "Fanta Orange 500ml",
+    "prices": {
+      "Naivas": {
+        "price": 80,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 80,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 85,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 85,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 75,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Soft Drinks",
+    "product": "Sprite 500ml",
+    "prices": {
+      "Naivas": {
+        "price": 80,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 80,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 85,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 85,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 75,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Soft Drinks",
+    "product": "Stoney Tangawizi 500ml",
+    "prices": {
+      "Naivas": {
+        "price": 80,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 80,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 85,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 85,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 75,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Soft Drinks",
+    "product": "Mountain Dew 500ml",
+    "prices": {
+      "Naivas": {
+        "price": 80,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 80,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 85,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 85,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 75,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Soft Drinks",
+    "product": "Minute Maid Orange 1L",
+    "prices": {
+      "Naivas": {
+        "price": 165,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 160,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 170,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 170,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 155,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Soft Drinks",
+    "product": "Delmonte Juice 1L",
+    "prices": {
+      "Naivas": {
+        "price": 160,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 160,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 170,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 170,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 155,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Soft Drinks",
+    "product": "Afia Juice 1L",
+    "prices": {
+      "Naivas": {
+        "price": 155,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 155,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 165,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 165,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 150,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Soft Drinks",
+    "product": "Pick n Peel Juice 1L",
+    "prices": {
+      "Naivas": {
+        "price": 150,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 150,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 160,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 160,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 145,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Soft Drinks",
+    "product": "Nutrex Juice 1L",
+    "prices": {
+      "Naivas": {
+        "price": 150,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 150,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 160,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 160,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 145,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Water",
+    "product": "Aquamist Water 500ml",
+    "prices": {
+      "Naivas": {
+        "price": 50,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 50,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 55,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 55,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 45,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Water",
+    "product": "Keringet Water 500ml",
+    "prices": {
+      "Naivas": {
+        "price": 50,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 50,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 55,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 55,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 45,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Water",
+    "product": "Dasani Water 500ml",
+    "prices": {
+      "Naivas": {
+        "price": 55,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 55,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 60,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 60,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 50,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Water",
+    "product": "Aquamist Water 1.5L",
+    "prices": {
+      "Naivas": {
+        "price": 90,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 90,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 95,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 95,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 85,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Water",
+    "product": "Keringet Water 1.5L",
+    "prices": {
+      "Naivas": {
+        "price": 90,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 90,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 95,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 95,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 85,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Breakfast",
+    "product": "Weetabix 430g",
+    "prices": {
+      "Naivas": {
+        "price": 395,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 390,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 410,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 415,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 385,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Breakfast",
+    "product": "Kellogg's Cornflakes 500g",
+    "prices": {
+      "Naivas": {
+        "price": 520,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 515,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 535,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 540,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 510,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Breakfast",
+    "product": "Kellogg's Frosties 500g",
+    "prices": {
+      "Naivas": {
+        "price": 535,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 530,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 550,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 555,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 525,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Breakfast",
+    "product": "Kellogg's Coco Pops 375g",
+    "prices": {
+      "Naivas": {
+        "price": 520,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 515,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 535,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 540,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 510,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Bread & Baked Goods",
+    "product": "Supa Loaf Bread 400g",
+    "prices": {
+      "Naivas": {
+        "price": 60,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 60,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 65,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 65,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 55,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Bread & Baked Goods",
+    "product": "Supa Loaf Bread 700g",
+    "prices": {
+      "Naivas": {
+        "price": 85,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 85,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 90,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 90,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 80,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Bread & Baked Goods",
+    "product": "Elliot's Bread 400g",
+    "prices": {
+      "Naivas": {
+        "price": 60,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 60,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 65,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 65,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 55,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Bread & Baked Goods",
+    "product": "Bakers Inn Bread 400g",
+    "prices": {
+      "Naivas": {
+        "price": 60,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 60,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 65,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 65,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 55,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Noodles & Pasta",
+    "product": "Indomie Chicken 70g",
+    "prices": {
+      "Naivas": {
+        "price": 30,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 30,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 35,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 35,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 25,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Noodles & Pasta",
+    "product": "Indomie Onion Chicken 70g",
+    "prices": {
+      "Naivas": {
+        "price": 30,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 30,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 35,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 35,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 25,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Noodles & Pasta",
+    "product": "Bambino Spaghetti 400g",
+    "prices": {
+      "Naivas": {
+        "price": 95,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 95,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 100,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 100,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 90,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Noodles & Pasta",
+    "product": "Golden Penny Spaghetti 500g",
+    "prices": {
+      "Naivas": {
+        "price": 130,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 125,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 135,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 135,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 120,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Canned & Preserved",
+    "product": "Tuna Chunks 185g",
+    "prices": {
+      "Naivas": {
+        "price": 195,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 190,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 205,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 210,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 185,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Canned & Preserved",
+    "product": "Geisha Mackerel 425g",
+    "prices": {
+      "Naivas": {
+        "price": 130,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 130,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 140,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 140,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 125,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Canned & Preserved",
+    "product": "Heinz Baked Beans 410g",
+    "prices": {
+      "Naivas": {
+        "price": 220,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 215,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 230,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 235,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 210,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Canned & Preserved",
+    "product": "Delmonte Tomato Paste 70g",
+    "prices": {
+      "Naivas": {
+        "price": 45,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 45,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 50,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 50,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 40,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Canned & Preserved",
+    "product": "Delmonte Tomato Paste 400g",
+    "prices": {
+      "Naivas": {
+        "price": 155,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 155,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 165,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 165,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 150,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Canned & Preserved",
+    "product": "Kensington Baked Beans 400g",
+    "prices": {
+      "Naivas": {
+        "price": 175,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 170,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 185,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 185,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 165,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Sauces & Spices",
+    "product": "Royco Mchuzi Mix 75g",
+    "prices": {
+      "Naivas": {
+        "price": 65,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 65,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 70,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 70,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 60,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Sauces & Spices",
+    "product": "Royco Mchuzi Mix 200g",
+    "prices": {
+      "Naivas": {
+        "price": 155,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 155,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 165,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 165,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 150,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Sauces & Spices",
+    "product": "Knorr Chicken Stock 8 cubes",
+    "prices": {
+      "Naivas": {
+        "price": 75,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 75,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 80,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 80,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 70,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Sauces & Spices",
+    "product": "Heinz Tomato Ketchup 500ml",
+    "prices": {
+      "Naivas": {
+        "price": 370,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 365,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 385,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 390,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 360,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Sauces & Spices",
+    "product": "Delmonte Tomato Ketchup 500ml",
+    "prices": {
+      "Naivas": {
+        "price": 270,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 265,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 280,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 285,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 260,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Sauces & Spices",
+    "product": "Tropical Heat Pilipili 100g",
+    "prices": {
+      "Naivas": {
+        "price": 90,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 90,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 95,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 95,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 85,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Sauces & Spices",
+    "product": "Tropical Heat Mixed Spice 100g",
+    "prices": {
+      "Naivas": {
+        "price": 90,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 90,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 95,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 95,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 85,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Household Cleaning",
+    "product": "Ariel Washing Powder 1kg",
+    "prices": {
+      "Naivas": {
+        "price": 430,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 425,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 445,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 450,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 420,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Household Cleaning",
+    "product": "Ariel Washing Powder 2kg",
+    "prices": {
+      "Naivas": {
+        "price": 800,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 795,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 820,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 825,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 790,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Household Cleaning",
+    "product": "Omo Washing Powder 1kg",
+    "prices": {
+      "Naivas": {
+        "price": 400,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 395,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 415,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 420,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 390,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Household Cleaning",
+    "product": "Omo Washing Powder 2kg",
+    "prices": {
+      "Naivas": {
+        "price": 760,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 755,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 775,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 780,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 750,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Household Cleaning",
+    "product": "Surf Washing Powder 1kg",
+    "prices": {
+      "Naivas": {
+        "price": 330,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 325,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 340,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 345,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 320,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Household Cleaning",
+    "product": "Persil Washing Powder 1kg",
+    "prices": {
+      "Naivas": {
+        "price": 430,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 425,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 445,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 450,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 420,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Household Cleaning",
+    "product": "Toss Dish Soap 750ml",
+    "prices": {
+      "Naivas": {
+        "price": 175,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 170,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 185,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 185,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 165,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Household Cleaning",
+    "product": "Fairy Dish Soap 500ml",
+    "prices": {
+      "Naivas": {
+        "price": 320,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 315,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 335,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 340,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 310,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Household Cleaning",
+    "product": "Lavender Dishwashing Liquid 500ml",
+    "prices": {
+      "Naivas": {
+        "price": 130,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 125,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 140,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 140,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 120,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Household Cleaning",
+    "product": "Vim Cream Cleanser 500ml",
+    "prices": {
+      "Naivas": {
+        "price": 220,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 215,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 230,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 235,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 210,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Household Cleaning",
+    "product": "Jik Bleach 750ml",
+    "prices": {
+      "Naivas": {
+        "price": 160,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 155,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 170,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 170,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 150,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Household Cleaning",
+    "product": "Jik Bleach 1L",
+    "prices": {
+      "Naivas": {
+        "price": 200,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 195,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 210,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 210,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 190,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Household Cleaning",
+    "product": "Domestos Bleach 750ml",
+    "prices": {
+      "Naivas": {
+        "price": 195,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 190,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 205,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 210,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 185,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Household Cleaning",
+    "product": "Harpic Toilet Cleaner 500ml",
+    "prices": {
+      "Naivas": {
+        "price": 290,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 285,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 300,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 305,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 280,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Household Cleaning",
+    "product": "Mr. Muscle Multi-Surface 500ml",
+    "prices": {
+      "Naivas": {
+        "price": 360,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 355,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 375,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 380,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 350,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Paper & Tissue",
+    "product": "Softex Tissue 10 pack",
+    "prices": {
+      "Naivas": {
+        "price": 280,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 275,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 290,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 295,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 270,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Paper & Tissue",
+    "product": "Twinsaver Tissue 10 pack",
+    "prices": {
+      "Naivas": {
+        "price": 295,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 290,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 305,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 310,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 285,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Paper & Tissue",
+    "product": "Housemate Toilet Paper 10 roll",
+    "prices": {
+      "Naivas": {
+        "price": 270,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 265,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 280,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 285,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 260,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Paper & Tissue",
+    "product": "Kitchen Roll 2 pack",
+    "prices": {
+      "Naivas": {
+        "price": 180,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 175,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 190,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 195,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 170,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Personal Care - Bath",
+    "product": "Dettol Soap 175g",
+    "prices": {
+      "Naivas": {
+        "price": 115,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 115,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 120,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 120,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 110,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Personal Care - Bath",
+    "product": "Lifebuoy Soap 175g",
+    "prices": {
+      "Naivas": {
+        "price": 100,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 100,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 105,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 105,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 95,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Personal Care - Bath",
+    "product": "Safeguard Soap 175g",
+    "prices": {
+      "Naivas": {
+        "price": 110,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 110,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 115,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 115,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 105,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Personal Care - Bath",
+    "product": "Lux Soap 175g",
+    "prices": {
+      "Naivas": {
+        "price": 105,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 105,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 110,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 110,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 100,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Personal Care - Bath",
+    "product": "Dettol Shower Gel 250ml",
+    "prices": {
+      "Naivas": {
+        "price": 320,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 315,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 330,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 335,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 310,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Personal Care - Oral",
+    "product": "Colgate Toothpaste 75ml",
+    "prices": {
+      "Naivas": {
+        "price": 155,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 155,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 165,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 165,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 150,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Personal Care - Oral",
+    "product": "Colgate Toothpaste 150ml",
+    "prices": {
+      "Naivas": {
+        "price": 270,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 265,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 280,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 285,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 260,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Personal Care - Oral",
+    "product": "Oral-B Toothpaste 100ml",
+    "prices": {
+      "Naivas": {
+        "price": 230,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 225,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 240,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 245,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 220,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Personal Care - Oral",
+    "product": "Aquafresh Toothpaste 100ml",
+    "prices": {
+      "Naivas": {
+        "price": 195,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 190,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 205,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 205,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 185,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Personal Care - Oral",
+    "product": "Colgate Toothbrush Medium",
+    "prices": {
+      "Naivas": {
+        "price": 115,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 115,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 120,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 120,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 110,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Personal Care - Skin",
+    "product": "Vaseline Body Lotion 400ml",
+    "prices": {
+      "Naivas": {
+        "price": 355,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 350,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 365,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 370,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 345,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Personal Care - Skin",
+    "product": "Nivea Body Lotion 400ml",
+    "prices": {
+      "Naivas": {
+        "price": 370,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 365,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 385,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 390,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 360,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Personal Care - Skin",
+    "product": "Dove Body Lotion 400ml",
+    "prices": {
+      "Naivas": {
+        "price": 380,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 375,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 395,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 400,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 370,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Personal Care - Skin",
+    "product": "Nivea Cream 60ml",
+    "prices": {
+      "Naivas": {
+        "price": 195,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 190,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 205,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 205,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 185,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Personal Care - Skin",
+    "product": "Vaseline Petroleum Jelly 250ml",
+    "prices": {
+      "Naivas": {
+        "price": 245,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 240,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 255,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 260,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 235,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Personal Care - Hair",
+    "product": "Sunsilk Shampoo 200ml",
+    "prices": {
+      "Naivas": {
+        "price": 265,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 260,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 275,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 280,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 255,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Personal Care - Hair",
+    "product": "Head & Shoulders Shampoo 200ml",
+    "prices": {
+      "Naivas": {
+        "price": 420,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 415,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 435,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 440,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 410,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Personal Care - Hair",
+    "product": "Pantene Shampoo 200ml",
+    "prices": {
+      "Naivas": {
+        "price": 400,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 395,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 415,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 420,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 390,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Feminine Hygiene",
+    "product": "Always Pads Regular 8 pack",
+    "prices": {
+      "Naivas": {
+        "price": 115,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 115,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 120,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 120,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 110,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Feminine Hygiene",
+    "product": "Always Pads Regular 20 pack",
+    "prices": {
+      "Naivas": {
+        "price": 255,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 250,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 265,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 270,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 245,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Feminine Hygiene",
+    "product": "Kotex Regular 8 pack",
+    "prices": {
+      "Naivas": {
+        "price": 110,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 110,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 115,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 115,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 105,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Feminine Hygiene",
+    "product": "Softex Pads Regular 8 pack",
+    "prices": {
+      "Naivas": {
+        "price": 95,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 95,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 100,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 100,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 90,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Baby Care",
+    "product": "Pampers Newborn 24 pack",
+    "prices": {
+      "Naivas": {
+        "price": 620,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 615,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 635,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 640,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 610,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Baby Care",
+    "product": "Pampers Size 3 24 pack",
+    "prices": {
+      "Naivas": {
+        "price": 680,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 675,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 695,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 700,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 670,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Baby Care",
+    "product": "Huggies Size 3 24 pack",
+    "prices": {
+      "Naivas": {
+        "price": 660,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 655,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 675,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 680,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 650,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Baby Care",
+    "product": "Pampers Baby Wipes 64 pack",
+    "prices": {
+      "Naivas": {
+        "price": 395,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 390,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 410,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 415,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 385,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Baby Care",
+    "product": "Cerelac Wheat 500g",
+    "prices": {
+      "Naivas": {
+        "price": 580,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 575,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 595,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 600,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 570,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Health",
+    "product": "Panadol 12 tablets",
+    "prices": {
+      "Naivas": {
+        "price": 65,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 65,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 70,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 70,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 60,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Health",
+    "product": "Panadol 24 tablets",
+    "prices": {
+      "Naivas": {
+        "price": 120,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 120,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 125,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 125,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 115,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Health",
+    "product": "Dettol Antiseptic Liquid 250ml",
+    "prices": {
+      "Naivas": {
+        "price": 320,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 315,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 330,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 335,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 310,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Health",
+    "product": "Dettol Hand Sanitizer 100ml",
+    "prices": {
+      "Naivas": {
+        "price": 180,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 175,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 190,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 190,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 170,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Meat & Protein",
+    "product": "Farmers Choice Sausages 500g",
+    "prices": {
+      "Naivas": {
+        "price": 380,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 375,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 395,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 400,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 370,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Meat & Protein",
+    "product": "Farmers Choice Beef Sausages 500g",
+    "prices": {
+      "Naivas": {
+        "price": 395,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 390,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 410,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 415,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 385,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Meat & Protein",
+    "product": "Kenchic Chicken Wings 1kg",
+    "prices": {
+      "Naivas": {
+        "price": 420,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 415,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 435,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 440,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 410,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Meat & Protein",
+    "product": "Kenchic Drumsticks 1kg",
+    "prices": {
+      "Naivas": {
+        "price": 400,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 395,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 415,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 420,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 390,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Meat & Protein",
+    "product": "K-Safi Beef Mince 500g",
+    "prices": {
+      "Naivas": {
+        "price": 350,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 345,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 365,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 370,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 340,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Snacks",
+    "product": "Lays Chips 100g",
+    "prices": {
+      "Naivas": {
+        "price": 120,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 120,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 130,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 130,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 115,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Snacks",
+    "product": "Pringles Original 165g",
+    "prices": {
+      "Naivas": {
+        "price": 470,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 465,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 485,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 490,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 460,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Snacks",
+    "product": "Safari Groundnuts 200g",
+    "prices": {
+      "Naivas": {
+        "price": 85,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 85,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 90,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 90,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 80,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Snacks",
+    "product": "Cadbury Dairy Milk 90g",
+    "prices": {
+      "Naivas": {
+        "price": 195,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 190,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 205,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 210,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 185,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Snacks",
+    "product": "Digestive Biscuits 400g",
+    "prices": {
+      "Naivas": {
+        "price": 260,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 255,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 270,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 275,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 250,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Fresh Produce",
+    "product": "Tomatoes 1kg",
+    "prices": {
+      "Naivas": {
+        "price": 80,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 80,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 85,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 85,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 75,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Fresh Produce",
+    "product": "Onions 1kg",
+    "prices": {
+      "Naivas": {
+        "price": 70,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 70,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 75,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 75,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 65,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Fresh Produce",
+    "product": "Potatoes 1kg",
+    "prices": {
+      "Naivas": {
+        "price": 75,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 75,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 80,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 80,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 70,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Fresh Produce",
+    "product": "Bananas 1kg",
+    "prices": {
+      "Naivas": {
+        "price": 80,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 80,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 85,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 85,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 75,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Fresh Produce",
+    "product": "Carrots 1kg",
+    "prices": {
+      "Naivas": {
+        "price": 75,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 75,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 80,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 80,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 70,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Fresh Produce",
+    "product": "Cabbage 1 head",
+    "prices": {
+      "Naivas": {
+        "price": 65,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 65,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 70,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 70,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 60,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  },
+  {
+    "category": "Fresh Produce",
+    "product": "Spinach 1 bunch",
+    "prices": {
+      "Naivas": {
+        "price": 40,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Quickmart": {
+        "price": 40,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Carrefour": {
+        "price": 45,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Chandarana": {
+        "price": 45,
+        "updated_at": "2026-05-08",
+        "verified": false
+      },
+      "Cleanshelf": {
+        "price": 35,
+        "updated_at": "2026-05-08",
+        "verified": false
+      }
+    }
+  }
+]

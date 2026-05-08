@@ -3,7 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bei.ke - Supermarket Price Comparison</title>
+    <title>Bei.ke - Supermarket Price Comparison in Kenya</title>
+    <meta name="description" content="Compare grocery prices across Naivas, Carrefour, Quickmart, Chandarana, and Cleanshelf in Kenya. Find the cheapest supermarket for unga, milk, cooking oil, and more." />
+    <meta property="og:title" content="Bei.ke - Supermarket Price Comparison in Kenya" />
+    <meta property="og:description" content="Compare grocery prices across Naivas, Carrefour, Quickmart, Chandarana, and Cleanshelf. Find the cheapest supermarket for your shopping." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://bei.ke" />
     <style>
       body {
         font-family:
@@ -56,6 +61,7 @@
   <body>
     <h1>Bei.ke</h1>
     <p>Compare supermarket prices across Kenya</p>
+    <p><small>Prices are community-verified. <a href="https://docs.google.com/forms/d/e/1FAIpQLSeVYjIac78ZliFkaK58jg7D7lb5lE6c_o730M7ACwn-rDdGrQ/viewform" target="_blank" rel="noopener">Report a wrong price</a></small></p>
 
     <input
       type="text"
@@ -107,12 +113,19 @@
 
       function getLowestPrice(prices) {
         let lowest = { store: null, price: Infinity };
-        for (const [store, price] of Object.entries(prices)) {
-          if (price < lowest.price) {
-            lowest = { store, price };
+        for (const [store, entry] of Object.entries(prices)) {
+          if (entry.price < lowest.price) {
+            lowest = { store, price: entry.price };
           }
         }
         return lowest;
+      }
+
+      function timeAgo(dateStr) {
+        const days = Math.floor((Date.now() - new Date(dateStr)) / 86400000);
+        if (days === 0) return "today";
+        if (days === 1) return "1 day ago";
+        return `${days} days ago`;
       }
 
       function renderProducts(products) {
@@ -132,23 +145,25 @@
                     <div class="product-card">
                         <h3>${product.product}</h3>
                         <p><strong>Category:</strong> ${product.category}</p>
-                        ${product.estimated ? "<p><em>Estimated price</em></p>" : ""}
                         <table>
                             <thead>
                                 <tr>
                                     <th>Store</th>
                                     <th>Price (KES)</th>
+                                    <th>Updated</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 ${stores
                                   .map((store) => {
-                                    const price = product.prices[store];
+                                    const entry = product.prices[store];
                                     const isLowest = store === lowest.store;
+                                    const label = timeAgo(entry.updated_at) + (entry.verified ? "" : " · est.");
                                     return `
                                         <tr>
                                             <td>${store}</td>
-                                            <td class="${isLowest ? "lowest" : ""}">${price}</td>
+                                            <td class="${isLowest ? "lowest" : ""}">${entry.price}</td>
+                                            <td>${label}</td>
                                         </tr>
                                     `;
                                   })
